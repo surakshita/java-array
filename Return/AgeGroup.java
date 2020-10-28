@@ -1,10 +1,11 @@
 public class AgeGroup
 {
-public static void main(String[] group)
+public static void main(String[] args)
 {
-System.out.println("invoking group:");
-String Group=Age.ageDefinition(20);
-System.out.println("age group:"+Group);
+System.out.println("invoking main:");
+byte age=45;
+Age.ageDefinition(age);
+
 
 }
 }
