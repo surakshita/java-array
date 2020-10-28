@@ -1,6 +1,6 @@
 public class Age
 {
-public static String ageDefinition(int age)
+public static String ageDefinition(byte age)
 {
 System.out.println("invoking age:");
 
