@@ -22,24 +22,34 @@ return "Bengaluru";
 }
 if(dis>=130)
 {
+  System.out.println("place:");
 return "Belgaum";
 }
 if(dis>=140)
 {
+  System.out.println("place:");
 return "Davanagere";
 }
 if(dis>=150)
 {
+  System.out.println("place:");
 return "Vijaypura";
 }
 if(dis>=160)
 {
+  System.out.println("place:");
 return "Udupi";
 }
 if(dis>=170)
 {
+  System.out.println("place:");
 return "Chikmagalur";
 }
+  if(dis>100000)
+  {
+    System.out.println("place:");
+    return "not on earth";
+  }
 return "dis";
 }
 }
