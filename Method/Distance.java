@@ -10,37 +10,37 @@ public static String finder(int dis)
 
 {
 System.out.println("dis:"+ dis);
-if(dis>=100)
+if(dis>=100 && dis<=110)
 {
 System.out.println("place:");
 return "Hubli";
 }
-if(dis>=120)
+if(dis>=110 && dis<=120)
 {
 System.out.println("place:");
 return "Bengaluru";
 }
-if(dis>=130)
+if(dis>120 && dis<=130)
 {
   System.out.println("place:");
 return "Belgaum";
 }
-if(dis>=140)
+if(dis>130 && dis<=140)
 {
   System.out.println("place:");
 return "Davanagere";
 }
-if(dis>=150)
+if(dis>140 && dis<=150)
 {
   System.out.println("place:");
 return "Vijaypura";
 }
-if(dis>=160)
+if(dis>150 && dis<=160)
 {
   System.out.println("place:");
 return "Udupi";
 }
-if(dis>=170)
+if(dis>=170 && dis<=180)
 {
   System.out.println("place:");
 return "Chikmagalur";
